@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 122px;
+    padding-right: 171px;
+    padding-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1 {
+    /* width: 50%; */
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box2 {
+    /* width: 50%; */
+    /* display: flex; */
+    background-color: blue;
+}
+.box2 li{
+    display: flex;
+    ba
+}
+img {
+    width: 115px;
+    height: 68px;
+    margin-top: 50px;
+}
+
+.icon1 {
+    width: 50%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+
+}
+.icon1 i{
+    margin-right: 20px;
+    color: white;
+}
+
+.text {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    margin-top: 146px;
+}
+
+.iconphone {
+    color: white;
+    /* margin-top: 54px; */
+}
+
+.box2 li p {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin-left: 22px;
+}
+
+.email {
+    color: white;
+}
